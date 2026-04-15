@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Her Sovereign Era</title>
+  <!-- Social Icons Library -->
+  <link rel="stylesheet" href="https://cloudflare.com">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      /* NEW LADY LUXURY COLOR: Deep Plum Noir */
+      background: #2a1b3d; 
+      color: #f8f1ff;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      color: #e2d5f0;
+    }
+
+    /* PROFILE PICTURE */
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #a78bfa;
+      margin-bottom: 25px;
+      box-shadow: 0 0 25px rgba(167, 139, 250, 0.4);
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 20px auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      margin: 10px;
+      background: #a78bfa;
+      color: #2a1b3d; /* Dark text on light button for better readability */
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #f8f1ff;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(167, 139, 250, 0.4);
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 2px solid #a78bfa;
+      color: #a78bfa;
+    }
+
+    /* SOCIAL LINKS */
+    .social-links {
+      margin: 25px 0;
+    }
+
+    .social-links a {
+      color: #f8f1ff;
+      font-size: 2rem;
+      margin: 0 15px;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #a78bfa;
+      transform: scale(1.2);
+    }
+
+    /* SUBSCRIBE / CONTACT SECTION */
+    .contact-form {
+      background: #3b2650; /* Slightly lighter plum for cards */
+      padding: 40px;
+      border-radius: 20px;
+      margin-top: 40px;
+      border: 1px solid rgba(167, 139, 250, 0.2);
+    }
+
+    .contact-form input {
+      width: 100%;
+      max-width: 400px;
+      padding: 14px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: 1px solid #5a4175;
+      background: #2a1b3d;
+      color: white;
+      outline: none;
+    }
+
+    /* SECTION LAYOUT */
+    .section {
+      padding: 60px 20px;
+    }
+
+    .card {
+      padding: 25px;
+      border-radius: 15px;
+      background: #3b2650;
+      margin-bottom: 25px;
+      border: 1px solid rgba(167, 139, 250, 0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      border-color: #a78bfa;
+    }
+
+    /* ANIMATED TWINKLE STARS */
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: #fff;
+      border-radius: 50%;
+      opacity: 0.5;
+      animation: twinkle 4s infinite ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.4); }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- TWINKLING BACKGROUND STARS -->
+  <div class="stars">
+    <span class="star" style="top:15%; left:25%; animation-delay:0s;"></span>
+    <span class="star" style="top:40%; left:80%; animation-delay:1s;"></span>
+    <span class="star" style="top:55%; left:15%; animation-delay:2s;"></span>
+    <span class="star" style="top:85%; left:45%; animation-delay:1.5s;"></span>
+    <span class="star" style="top:25%; left:70%; animation-delay:0.5s;"></span>
+    <span class="star" style="top:65%; left:85%; animation-delay:2.5s;"></span>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <section class="hero container">
+    <!-- DISPLAY CLIENT IMAGE -->
+    <img src="Client.jpeg" alt="Her Sovereign Era Profile" class="profile-img">
+    
+    <h1>Align Your Energy. <br>Become Magnetic ✨</h1>
+    
+    <!-- SOCIAL HANDLES -->
+    <div class="social-links">
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <p>Reconnect with your spirit, elevate your energy, and step into a life that naturally attracts what is meant for you.</p>
+
+    <a href="https://beacons.ai" class="btn">Explore All Tools</a>
+    <a href="#" class="btn secondary">Book a Reading 🔮</a>
+  </section>
+
+  <!-- SUBSCRIBE / CONTACT PORTAL -->
+  <section class="section container">
+    <div class="contact-form">
+      <h2>Join The Sovereign Circle</h2>
+      <p style="margin-bottom: 25px;">Enter your email to receive exclusive energy updates and guidance.</p>
+      
+      <!-- Connect this to Formspree.io later to make it active! -->
+      <form action="#" method="POST">
+        <input type="email" name="email" placeholder="Enter your best email" required>
+        <br>
+        <button type="submit" class="btn">Subscribe Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="section container">
+    <h2>What I Offer</h2>
+    <div class="card">
+      <h3>🔮 Spiritual Readings</h3>
+      <p>Gain clarity, guidance, and deeper understanding of your soul's current path.</p>
+    </div>
+    <div class="card">
+      <h3>✨ Energy Alignment</h3>
+      <p>Identify and release blockages to step into your highest, most magnetic frequency.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="text-align: center; padding: 50px 20px; border-top: 1px solid rgba(167, 139, 250, 0.1);">
+    <p>© 2026 Her Sovereign Era. Crafted for empowerment.</p>
+  </footer>
+
+</body>
+</html>
